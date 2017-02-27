@@ -1,0 +1,15 @@
+nav a{
+    float: left;
+    height: 40px;
+    line-height: 38px;
+    text-decoration: none;
+    color: #fff;
+    font-family: serif;
+    background: #000;
+    padding:  0 10px;
+    transition: 0.5s;
+}
+nav a:hover{
+    background: grey;
+    padding: 20px;
+}

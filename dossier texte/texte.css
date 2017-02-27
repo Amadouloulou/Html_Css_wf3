@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'italiano_regular';
+    src: url('police/italiano-webfont.woff2') format('woff2'),
+         url('police/italiano-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'italiano_regular';
+    font-size: 100%;
+    color: grey;
+}

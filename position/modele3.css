@@ -1,0 +1,28 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.b{
+    float: left;
+    width: 500px;
+    height: 400px;
+    background-color: #7FC6BC;
+}
+
+.c{
+    float: left;
+    width: 500px;
+    height: 400px;
+    background-color: pink;
+}
+
+.d{
+   float: left;
+   width: 1000px;
+   height: 150px;
+   top: 100%;
+   background-color: orange;
+}

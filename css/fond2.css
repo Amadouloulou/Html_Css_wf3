@@ -1,0 +1,10 @@
+body{
+    background: #000000 url(black-and-white-city-skyline-buildings.jpg) no-repeat;
+    background-size: cover;
+}
+.contenu{
+    background: linear-gradient(black, grey, white, grey, black);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}

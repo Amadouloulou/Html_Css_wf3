@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'bonzairegular';
+    src: url('bonzai-webfont.woff2') format('woff2'),
+         url('bonzai-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'bonzairegular';
+    background: #000000 url("201208310400.jpg") no-repeat;
+    background-size: cover; /*cover en CSS3 permet de couvrir tout l'ecran*/
+}
+
+.contenu{
+    background-color: rgba(122, 27, 67, 0.3);/*mieix que opacity (car cela n'attenue pas la couleur du texte)*/
+    width: 800px;
+    height: 500px;
+    margin: 200px auto 0 auto;
+}
+
+.contenu p{/*cela permet de centrer du texte verticalement et horizontalement*/
+    text-align: center;
+    position: relative;
+    top: 50%;
+}

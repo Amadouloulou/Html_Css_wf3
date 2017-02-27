@@ -1,0 +1,14 @@
+ul.fruit{
+    list-style-type: none;
+}
+
+ul.fruit li{
+    float: left;
+    margin: 15px;
+    background: url(stock-illustration-38533574-skull-icon-isolated-black-skull-with-vampire-fangs.jpg) no-repeat;
+    padding: 0 0 0 17px;
+}
+
+hr{
+    clear: both;
+}

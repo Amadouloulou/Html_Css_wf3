@@ -1,0 +1,15 @@
+#conteneur{
+    width: 960px;
+    background: gray;
+    margin: 0 auto;
+    padding: 30px;/*espace interne du conteneur*/
+}
+
+.a, .b{
+    height: 150px;
+    width: 450px;
+    border: 2px solid;
+    margin: 0 10px;
+    display: inline-block;/*espace horizontal entre les blocs*/
+    vertical-align: middle; /*inline-block permet de rendre un block inline et le verticale est donc possible*/
+}

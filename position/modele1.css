@@ -1,0 +1,25 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.a{
+    width: 800px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.b{
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+
+.c{
+    float: left;
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+}
