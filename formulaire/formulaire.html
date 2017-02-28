@@ -8,7 +8,7 @@
     <body>
         <form method="post" enctype="multipart/form-data">
             <label for="pseudo">Pseudo</label>
-            <input type="text" id="pseudo" name="pseudo" placeholder="pseudo" required /><br /><br />
+            <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required /><br /><br />
 
             <label for="mdp">Mot de passe</label>
             <input type="password" id="mdp" name="mdp" placeholder="Mot de passe" /><br /><br />
@@ -43,8 +43,73 @@
             <input type="checkbox" name="choix" checked=""> Poire
             </p>
 
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france" placeholder="Ville" />
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </datalist><br /><br />
 
+            <label for="cp">Code Postal</label>
+            <input type="text"  id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" placeholder="Code Postal" /><br /><br />
+
+            <label for="adresse">Adresse</label>
+            <textarea id="adresse" name="adresse" rows="5" cols="19" placeholder="Adresse"></textarea><br /><br />
+
+            <label for="datedenaissance">Date de naissance</label>
+            <input type="date" id="datedenaissance" name="datedenaissance" /><br /><br />
+
+            <label for="jauge">Jauge</label>
+            <input type="range" min="25" max="25" id="jauge" value="26"><br /><br />
+
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" maxlength="10" placeholder="Téléphone"/><br /><br />
+
+            <label for="recherche">Recherche</label>
+            <input type="text" pattern="[a-zA-Z0-9.-_]+" title="caractères autorisés : a-zA-Z0-9.-_" name="recherche" id="rechgerche" placeholder="Recherche" /><br /><br />
+
+            <label for="couleur">Couleur</label>
+            <input type="color" name="couleur" id="couleur" /><br /><br />
+
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple /><br /><br />
+
+            <input type="hidden" id="cache" name="cache" /><br /><br />
+
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" value="test" disabled /><br /><br />
+
+            <input type="submit" name="inscription" value="S'inscrire">
+            <input type="reset" name="efface" value="recommencer" />
 
         </form>
     </body>
 </html>
+
+<!--
+metod:comment faire circuler les données ? post ? get.
+action: url de destination
+enctype: multipart-data/form: pour envoyer des fichiers
+label = etiquette (indication)
+for = nom relié au for
+input = élément du formulaire
+    id =nom relié au for
+    type = text - case de saisie
+    type = password - cas de saisie cryptée
+    type = email - case de saisie au format email
+    type = file - upload de fichier
+    type = checkbox - case à cocher
+    type = radio - case à cocher unique
+    type = hidden - champs caché
+    list = permet de s'alimenter de suggestion avec une list
+    name = nom pour futur récuperation en PHP
+    required = permet de rendre le champs obligatoire
+    disabled = désactive la saisie
+    placeholder = indication présaisie
+    maxlenght = longueur maximum
+    pattern = expression régulière avec une liste de caractère autorisés - title permet de personnaliser le message d'erreur dans l'infobulle
+    select = liste déroulante
+    option = option
+    datalist = contient la liste d'option en cas de suggestion demandé dans l'attribut liste
+-->

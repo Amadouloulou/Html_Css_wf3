@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulaire1.css">
+    <title>Exercice Formulaire</title>
+</head>
+<body>
+    <div id="conteneur">
+    <form method="post" action="">
+        <fieldset class="info">
+            <legend><strong>Information</strong></legend>
+            <label for="Nom">Nom</label><br />
+            <input type="text" name="nom" id="nom" placeholder="Nom" /><br />
+
+            <label for="prenom">Prénom</label><br />
+            <input type="text" name="prenom" id="prenom"  placeholder="Prénom" /><br />
+
+            <label for="telephone">Téléphone</label><br />
+            <input type="tel" name="telepgone" id="telephone"  pattern="[0-9]{10}" placeholder="Téléphone" /><br />
+
+            <label for="ville">Ville</label><br />
+            <input type="text" name="ville" id="ville" placeholder="Ville"><br />
+
+            <label for="cp">Code Postal</label><br />
+            <input type="text" name="cp" id="cp" placeholder="Code Postal" /><br />
+
+            <label for="adresse">Adresse</label><br />
+            <input type="text" name="adresse" id="adresse" placeholder="Adresse" />
+        </fieldset>
+
+        <br />
+
+        <fieldset class="date">
+            <legend><strong>Date de Naissance</strong></legend>
+            <label for="jour">Jour</label>
+            <select id="jour">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="">31</option>
+            </select><br /><br />
+
+
+
+            <label for="mois">Mois</label>
+            <select id="mois">
+                    <option value="janvier">Janvier</option>
+                    <option value="fevrier">Février</option>
+                    <option value="mars">Mars</option>
+                    <option value="avril">Avril</option>
+                    <option value="mai">Mai</option>
+                    <option value="Juin">Juin</option>
+                    <option value="juillet">Juillet</option>
+                    <option value="aout">Août</option>
+                    <option value="septembre">Septembre</option>
+                    <option value="octobre">Octobre</option>
+                    <option value="novembre">Novembre</option>
+                    <option value="decembre">Decembre</option>
+            </select><br /><br />
+
+            <label for="annee">Année</label>
+            <select id="annee">
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                    <option value="">2007</option>
+                    <option value="">2008</option>
+                    <option value="">2009</option>
+                    <option value="">2010</option>
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                    <option value="">2014</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="" selected>2017</option>
+            </select>
+    </fieldset>
+    <div clear=""></div>
+
+
+    <fieldset class="civilite">
+        <legend><strong>Civilité</strong></legend>
+        <label for="homme">Homme</label>
+        <input type="radio" name="homme" id="homme"><br /><br />
+
+        <label for="femme">Femme</label>
+        <input type="radio" name="femme" id="femme" />
+    </fieldset>
+    <div clear=""></div>
+
+    <fieldset class="facultatif">
+        <legend><strong>Informations Facultatif</strong></legend>
+        <label for="description">Description</label><br />
+        <textarea id="description" name="description" rows="3" cols="19" placeholder="Description"></textarea><br /><br />
+    </fieldset>
+    <div clear=""></div><br /><br />
+
+    <input type="submit" name="inscription" id="inscription" value="Inscription">
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    </div>
+
+</body>
+</html>
