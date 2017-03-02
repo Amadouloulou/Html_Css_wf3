@@ -1,0 +1,49 @@
+.gauche{
+    height: 700px;
+    width: 350px;
+    background: ;
+    float: left;
+    margin: 0 auto;
+    margin-left: 100px;
+
+}
+.droite{
+    height: 700px;
+    width: 450px;
+    float: left;
+    margin: 0 auto;
+    background: ;
+}
+
+.clear{
+    clear: both;
+}
+
+.img{
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+input{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 298px;
+    color: #5F8CA3;
+}
+
+textarea{
+    border: 2px solid;
+    border-radius: 5px;
+    color: #5F8CA3;
+}
+
+.envoi{
+    width: 50px;
+}
+
+iframe{
+    margin-left: 40px;
+}
