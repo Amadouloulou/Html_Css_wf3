@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-family: 'Overlock', cursive;
+}
+
+
+header, footer{
+
+    height: 110px;
+    background: #A2B5BF;
+
+}
+header{
+    border-bottom: 2px solid #5F8CA3;
+    background: white;
+}
+
+footer{
+    border-top: 2px solid #5F8CA3;
+}
+
+#conteneur{
+    width: 1000px;
+    height: 100px;
+    background: ;
+    margin: 0 auto;
+
+}
+
+#conteneur2{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#conteneur3{
+    width: 1000px;
+    height: 100px;
+    background: ;
+    margin: 0 auto;
+}
+
+.gauche{
+    height: 850px;
+    width: 450px;
+    background-image:linear-gradient(#5F8CA3, white, white);
+    padding-right: 50px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 250px;
+}
+.droite{
+    height: 850px;
+    width: 500px;
+    float: left;
+    margin: 0 auto;
+    background-image:linear-gradient(#5F8CA3, white, white);
+    margin-right: 100px
+
+}
+
+.titre{
+    width: 120px;
+    height: 75px;
+    background: ;
+    float: left;
+    background:;
+
+}
+
+.telecharger{
+    width: 120px;
+    height: 75px;
+    background: ;
+    float: right;
+    margin-left: 100px;
+}
+
+.tc{
+    text-align: right;
+    float: right;;
+}
+
+.chere{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 450px;
+    height: 25px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.lola{
+    width: 500px;
+    height: 25px;
+    margin: 0 auto;
+    background:  ;
+}
+
+h2{
+    color: #5F8CA3;
+    background: ;
+    float: right;
+    padding-right: 180px;
+}
+
+
+.media{
+    float: right;
+    background: ;
+    margin-top: 10px;
+    color: #5F8CA3;
+}
+
+}
+
+.ala{
+    padding-top: 10px;
+}
+
+.actu1{
+margin-left: 170px;
+
+
+}
+
+.img2{
+    float: left;
+}
+
+.loli{
+    float: left;
+}
+
+.base{
+    padding-top: 50px;
+    background:;
+    width: 320px;
+
+    margin: 0 auto;
+}
+
+.bas{
+    margin: 2px;
+    background: ;
+}
+
+.bas1{
+    margin-left: 35px;
+}
+
+.inter{
+    padding-right: 200px;
+}

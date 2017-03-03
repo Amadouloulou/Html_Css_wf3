@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-family: 'Overlock', cursive;
+}
+
+
+header, footer{
+
+    height: 110px;
+    background: #A2B5BF;
+
+}
+header{
+    border-bottom: 2px solid;
+}
+
+footer{
+    border-top: 2px solid;
+}
+
+#conteneur{
+    width: 800px;
+    height: 100px;
+    background: ;
+    margin: 0 auto;
+
+}
+
+#conteneur2{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#conteneur3{
+    width: 800px;
+    height: 100px;
+    background: ;
+    margin: 0 auto;
+
+}
+.gauche{
+    height: 750px;
+    width: 450px;
+    background: ;
+    float: left;
+    margin: 0 auto;
+    margin-left: 100px;
+
+}
+.droite{
+    height: 750px;
+    width: 350px;
+    float: left;
+    margin: 0 auto;
+    background: ;
+}
+
+.clear{
+    clear: both;
+}
+
+.bloc1, .bloc2, .bloc3{
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: black;
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    float: right;
+    background: ;
+}
+
+.bloc3{
+    height: 70px;
+    border-radius: 5px;
+
+}
+
+nav{
+    width: 300px;
+    height: 25px;
+    margin: 0 auto;
+    background: ;
+}
+
+a{
+    text-decoration: none;
+    margin: 2px;
+    color: black;
+}
+
+nav a:hover{
+    color:  #5F8CA3;
+
+}
+
+.titre{
+    width: 500px;
+    height: 75px;
+    background: ;
+    float: left;
+
+
+}
+
+.telecharger{
+    width: 300px;
+    height: 75px;
+    background: ;
+    float: left;
+
+}
+
+.tc{
+    text-align: right;
+    color: #5F8CA3;
+}
+
+.img{
+
+}
+
+.point{
+    float: left;
+}
+
+.gra{
+    margin-left: 100px;
+}
+
+.cop{
+    text-align: center;
+
+
+}
+
+.bas{
+    margin: 0;
+    color: black;
+}
+
+.bas:hover{
+    color: #5F8CA3;
+}
+
+.base{
+    padding-top: 40px;
+}
+
+.qui{
+    text-align: center;
+    background: #A2B5BF;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.exp{
+    text-align: center;
+    background: #A2B5BF;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.cont{
+    text-align: center;
+    background: #A2B5BF;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+h2{
+    color: #5F8CA3;
+}
+
+.c{
+    color: #5F8CA3;
+}
+
+.lol{
+    padding: 10px;
+}
+
+ul{
+    padding: 30px;
+}

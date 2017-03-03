@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container2{
+    width: 1000px;
+    height: 900px;
+    background: ;
+    margin: 0 auto;
+    color: black;
+}
+
+
+}
+}
+h1, h2, h3{
+    background: ;
+}
+
+h1, h3{
+    text-align: center;
+    color: ;
+}
+
+h2{
+    color: black;
+}
+
+img{
+    float: right;
+}
+nav{
+    margin: 0 auto;
+    padding-left: 240px;
+}
+
+.mouv{
+    background: #5F8CA3;
+    margin: 0 auto;
+    width: px;
+    margin-top: 48px;
+    padding-right: 70px;
+    border-top: 2px solid grey;
+}
