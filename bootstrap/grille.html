@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+    <!--
+    la classe .container prédéfinie dans la feuille de style bootstrap.css (à laquelle nous sommes reliés) permet d'englober le reste code et de le centrer sur la page web
+
+    la classe .row prédéfinie dans la feuille de style boostrap.css permet de prendre une ligne dans notre glyphicon-triangle-left
+
+    col veut dire colonne
+    md veut dire middle
+    1 veut dire 1 emplacement, les chiffres s'expriment en nombre d'emplacements, cette partie variable pourra prendre les valeurs suivantes: 1 2 3 4 5 6 7 8 9 10 11 12
+
+    1. xs = extra small screen (movile - écran petit - 0 à 768px)
+    2. sm = small screens (tablette - écran réduit - de 768px à 992)
+    3. md = medium ( identique à middle) screen ( ordinateur portable - ecran moyen - de 992 à 1200px)
+    4. lg = large screen (ordinateur de bureau - grand ecran - plus de 1200px)
+     -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 bordureRouge">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 bordureVert col-md-offset-3">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5 bordureJaune">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 bordureBleue">
+                </div>
+                <div class="col-md-3 bordureRouge">
+                </div>
+                <div class="col-md-3 bordureVert">
+                </div>
+                <div class="col-md-3 bordureOrange">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 bordureVert">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2 bordureBleue">
+                </div>
+                <div class="col-md-3 col-md-offset-2 bordureJaune">
+                </div>
+            </div>
+
+            <div class="row"></div>
+
+            <div class="row">
+                <div class="col-xs-6 bordureOrange"></div>
+                <div class="col-xs-6 bordureRouge"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 bordureVert"></div>
+                <div class="col-lg-6 bordureBleue"></div>
+            </div>
+        </div>
+
+            <br /><br /><br /><br /><br />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1 bordureRouge"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 bordureVert"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1 bordureOrange"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1 bordureBleue"></div>
+                </div>
+            </div>
+
+            <br /><br /><br /><br /><br />
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 bordureOrange"></div>
+                    <div class="col-xs-6 bordureOrange"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 bordureVert"></div>
+                    <div class="col-lg-6 bordureBleue"></div>
+                </div>
+            </div>
+
+            <br /><br /><br /><br /><br />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 bordureRouge">Colonne 1</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs- 6 col-sm-8 bordureVert">Colonne 2</div>
+                </div>
+            </div>
+
+            <br /><br /><br /><br /><br />
+
+            <div class="container">
+                <div class="row">
+                    <header class="col-md-12 bordureRouge">
+                        <div class="col-md-2 bordureRouge header" >Header-1</div>
+                        <div class="col-md-6 col-md-offset-1 bordureRouge header">Header-2</div>
+                        <div class="col-md-2 col-md-offset-1 bordureRouge header">Header-3</div>
+                    </header>
+                </div>
+
+
+
+                <div class="row">
+                    <nav>
+                        <div class="col-md-12 bordureOrange">Nav</div>
+                    </nav>
+                </div>
+
+
+
+                <div class="row">
+                    <section class="col-md-12 bordureBleue">
+                        <div class="col-md-2 bordureBleue section">Section-1</div>
+                        <div class="col-md-6 col-md-offset-1 bordureBleue section">Section-2</div>
+                        <div class="col-md-2 col-md-offset-1 bordureBleue section">Section-3</div>
+                    </section>
+                </div>
+
+
+
+                <div class="row">
+                    <footer class="col-md-12 bordureVert">
+                        <div class="col-md-2 bordureVert footer">Footer-1</div>
+                        <div class="col-md-6 col-md-offset-1 bordureVert footer">Footer-2</div>
+                        <div class="col-md-2 col-md-offset-1 bordureVert footer">Footer-3</div>
+                    </footer>
+                </div>
+            </div>
+
+            <br /><br /><br /><br /><br />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-5 col-lg-4 bordureRouge">Zone
+                    Gauche</div>
+
+                    <div class="col-xs-6 col-sm-5 col-lg-4 bordureVert">Zone Milieu</div>
+
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-4 bordureOrange">Zone Droite</div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

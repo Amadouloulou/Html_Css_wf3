@@ -1,0 +1,51 @@
+#conteneur{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    max-width: 1200px;
+}
+
+header, footer{
+    padding: 0.5px;
+    height: 10vh;
+    background: green;
+
+}
+
+nav{
+    padding: 0.5px;
+    height: 6vh;
+    background: violet;
+}
+
+.a, .b, .c{
+    float: left;
+    width: 333px;
+    height: 28vh;
+}
+
+.a, .c{
+    width: 25%;
+}
+
+.b{
+    width: 50%;
+}
+.d{
+    float: left;
+    background: pink;
+    width: 100%;
+    height: 32vh;
+}
+.e, .f, .g{
+    float: left;
+    width: 333px;
+    height: 28vh;
+}
+
+.e, .g{
+    width: 25%;
+}
+.f{
+    width: 50%;
+}
