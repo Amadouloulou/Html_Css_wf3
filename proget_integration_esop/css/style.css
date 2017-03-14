@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{/*Début du header*/
+    width: 100%;
+    background-color: red;
+    height: 300px:
+}
+
+p{
+    text-align: center;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 250px;
+    background-color: pink;
+
+}
+
+.vert{
+    background-color: green;
+    height: 3vh;
+}
+.gris{
+    background-color: grey;
+    height: 3vh;
+}
+.bleu{
+    background-color: blue;
+    height: 3vh;
+}
+
+.container{/*debut 1er container*/
+    width: 100%
+    height: 700px;
+    background-color: steelblue;
+    margin: 50px;
+}
+
+.container{
+    height: 600px;
+    background-color: steelblue;
+    margin: 50px;
+}
+.bloc10{
+    width: 70%;
+    height: 310px;
+    background-color: slategrey;
+    float: left;
+}
+.bloc11{
+    width: 30%;
+    height: 155px;
+    background-color: tan;
+    float: left;
+}
+.bloc12{
+    width: 30%;
+    height: 155px;
+    background-color: teal;
+    float: left;
+}
+.bloc13{
+    width: 23%;
+    height: 100px;
+    background-color: slateblue;
+    float: left;
+}
+.bloc14{
+    width: 24%;
+    height: 100px;
+    background-color: tomato;
+    float: left;
+}
+.bloc15{
+    width: 23%;
+    height: 100px;
+    background-color: thistle;
+    float: left;
+}
+.bloc16{
+    width: 30%;
+    height: 200px;
+    background-color: rosybrown;
+    float: right;
+}
+.bloc17{
+    width: 23%;
+    height: 100px;
+    background-color: sandybrown;
+    float: left;
+}
+.bloc18{
+    width: 24%;
+    height: 100px;
+    background-color: royalblue;
+    float: left;
+}
+.bloc19{
+    width: 23%;
+    height: 100px;
+    background-color: paleturquoise;
+    float: left;
+}/*fin premier container*/
+
+.bloc20{
+    width: 30%;
+    height: 250px;
+    background-color: red;
+    float: left;
+}
+.bloc21{
+    width: 30%;
+    height: 250px;
+    background-color: green;
+    float: left;
+}
+.bloc22{
+    width: 30%;
+    height: 250px;
+    background-color: brown;
+    float: left;
+}
+.bloc23{
+    width: 30%;
+    height: 250px;
+    background-color: yellow;
+    float: left;
+}
+.bloc24{
+    width: 30%;
+    height: 250px;
+    background-color: orange;
+    float: left;
+}
+.bloc25{
+    width: 30%;
+    height: 250px;
+    background-color: pink;
+    float: left;
+}
+
+
+.bloc20,.bloc21,.bloc22,.bloc23,.bloc24,.bloc25{
+
+    margin-bottom: 50px;
+
+}
+
+.i1{
+    background-color: slategrey;
+    width: 50%;
+    height: 20px;
+    float: left;
+    margin-top: 220px;
+}
+.i2{
+    background-color: tan;
+    width: 50%;
+    height: 20px;
+    float: left;
+    margin-top: 220px;
+}
+.i3{
+    background-color: purple;
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
