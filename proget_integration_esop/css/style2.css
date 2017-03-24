@@ -1,0 +1,54 @@
+body{
+    font-family: 'open Sans' , sans-serif;
+}
+
+/* section class BANNER */
+.banner{
+    background: gray;
+    color: #fff;
+    min-height: 25px;
+}
+.bannerleft{
+    text-align: left;
+}
+.bannermiddle{
+    text-align: center;
+    }
+    .bannermiddle em{
+        font-size: 12px;
+        font-weight: none;
+    }
+.bannerright{
+    text-align: right;
+}
+/** fin de section class BANNER **/
+
+/* HEADER zone avec logo */
+.logozone{
+    background: #ebe7e8;
+    color: black;
+    min-height: 165px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    font-size: 5vw;
+    font-weight: bold;
+    }
+    .logo span{
+        color: #fff;
+        background: #ff358b;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+figcaption em{
+    letter-spacing: 0.1vw;
+}
+.blocfour em{
+    font-size: 12px;
+}
+.blocfour{
+    text-align: right;
+}
+/* fin HEADER */
